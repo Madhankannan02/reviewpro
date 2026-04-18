@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/edit", "destination": "/public/edit.html" }
+  ]
+}
